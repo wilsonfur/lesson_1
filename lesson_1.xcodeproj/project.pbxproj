@@ -10,8 +10,8 @@
 		C8CA36B61F9E0ADD0093FF44 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8CA36B51F9E0ADD0093FF44 /* AppDelegate.swift */; };
 		C8CA36B81F9E0ADD0093FF44 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8CA36B71F9E0ADD0093FF44 /* ViewController.swift */; };
 		C8CA36BB1F9E0ADD0093FF44 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8CA36B91F9E0ADD0093FF44 /* Main.storyboard */; };
-		C8CA36BD1F9E0ADD0093FF44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8CA36BC1F9E0ADD0093FF44 /* Assets.xcassets */; };
 		C8CA36C01F9E0ADD0093FF44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8CA36BE1F9E0ADD0093FF44 /* LaunchScreen.storyboard */; };
+		C8CA36C71F9EF1BA0093FF44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8CA36BC1F9E0ADD0093FF44 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -124,7 +124,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C8CA36C01F9E0ADD0093FF44 /* LaunchScreen.storyboard in Resources */,
-				C8CA36BD1F9E0ADD0093FF44 /* Assets.xcassets in Resources */,
+				C8CA36C71F9EF1BA0093FF44 /* Assets.xcassets in Resources */,
 				C8CA36BB1F9E0ADD0093FF44 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
