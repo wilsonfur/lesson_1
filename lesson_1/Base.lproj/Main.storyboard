@@ -18,7 +18,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view alpha="0.10000000000000001" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Fj5-I2-28W">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Fj5-I2-28W">
                                 <rect key="frame" x="10" y="156" width="355" height="355"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ElJ-gU-Qsx" userLabel="Black">
@@ -346,22 +346,9 @@
                                     <constraint firstAttribute="width" secondItem="Fj5-I2-28W" secondAttribute="height" multiplier="1:1" id="k4A-bL-vHo"/>
                                 </constraints>
                             </view>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D0r-ux-WPN">
-                                <rect key="frame" x="60" y="531" width="255" height="44"/>
-                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="44" id="s0g-nm-uf3"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                                <state key="normal" title="Button"/>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="D0r-ux-WPN" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="60" id="7n0-51-670"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="D0r-ux-WPN" secondAttribute="trailing" constant="60" id="8Yi-gG-V6y"/>
-                            <constraint firstItem="D0r-ux-WPN" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="9Lq-mr-ACW"/>
-                            <constraint firstItem="D0r-ux-WPN" firstAttribute="top" secondItem="Fj5-I2-28W" secondAttribute="bottom" constant="20" id="H1r-VX-hnQ"/>
                             <constraint firstItem="Fj5-I2-28W" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Ueq-2v-Swu"/>
                             <constraint firstItem="Fj5-I2-28W" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="10" id="gPc-Ud-m56"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Fj5-I2-28W" secondAttribute="trailing" constant="10" id="wrN-IZ-RFk"/>
@@ -369,7 +356,6 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="PlayAnimation" destination="D0r-ux-WPN" id="xpr-eH-kX0"/>
                         <outlet property="StormTrooper" destination="Fj5-I2-28W" id="nQn-bK-oda"/>
                     </connections>
                 </viewController>
